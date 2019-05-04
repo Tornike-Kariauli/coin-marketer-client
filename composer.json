@@ -1,0 +1,27 @@
+{
+    "name": "contract-zero/coin-marketer-client",
+    "description": "Coin Marketer Client Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tornike",
+            "email": "tornikekariauli@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ContractZero\\CoinMarketerClient\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ContractZero\\CoinMarketerClient\\CoinMarketerClientServiceProvider"
+            ]
+        }
+    }
+}
